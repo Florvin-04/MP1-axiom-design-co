@@ -205,6 +205,8 @@ a {
 
 .hero__container {
   display: grid;
+  width: min(100%, 1400px);
+  margin-inline: auto;
 }
 
 .hero-img {
@@ -297,12 +299,10 @@ a {
   grid-template-columns: 1fr 1fr;
 }
 
-
-.concept__pages{
-    width: min(90%, 1300px);
-    margin-inline: auto;
+.concept__pages {
+  width: min(90%, 1300px);
+  margin-inline: auto;
 }
-
 
 .concept div {
   /* outline: 3px solid red; */
